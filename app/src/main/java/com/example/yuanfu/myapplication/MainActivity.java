@@ -26,7 +26,7 @@ import java.util.List;
 
 public class MainActivity extends ActionBarActivity {
 
-    TextView name, height, weight, show, 攝氏, 華氏;
+    TextView name, height, weight, show, oC, oF;
     EditText entername, enterheight, enterweight, enterC, enterF;
     Button button;
     public String showheight, showweight,showBMI;
@@ -39,8 +39,8 @@ public class MainActivity extends ActionBarActivity {
         height = (TextView) findViewById(R.id.textView2);
         weight = (TextView) findViewById(R.id.textView3);
         show = (TextView) findViewById(R.id.textView4);
-       攝氏 = (TextView) findViewById(R.id.textView5);
-        華氏 = (TextView) findViewById(R.id.textView6);
+       oC = (TextView) findViewById(R.id.textView5);
+        oF = (TextView) findViewById(R.id.textView6);
         entername = (EditText) findViewById(R.id.editText);
         enterheight = (EditText) findViewById(R.id.editText2);
         enterweight = (EditText) findViewById(R.id.editText3);
